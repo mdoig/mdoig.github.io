@@ -2,79 +2,70 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Marshall's page</title>
+  <title>Marshall Doig's page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
-    h1, p, ul {
-      text-align: center;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
 
+    body {
+      background-image: url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    }
+    h1, p, ul, .row {
+      text-align: center;
+      /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    }
+/* 
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
  
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>
-    Marshall Doig
-  </h1>
-  </header>
-  <img src='marshall_photo.jpg' width=10%; alt='This is me'>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac 
-    nulla semper lacus ullamcorper consectetur. Suspendisse rhoncus, sapien eget 
-    commodo faucibus, sapien nisi condimentum justo, eget condimentum dui quam id 
-    libero. Ut iaculis mauris eget luctus luctus. Integer a lorem vitae eros 
-    tristique varius. Phasellus lacinia, massa non euismod sagittis, dui tortor 
-    semper elit, id posuere nulla ante in mi. Aenean vitae metus eu quam fermentum 
-    placerat non ut velit. Praesent convallis id sem vitae rhoncus. Nullam in magna 
-    sodales metus aliquam malesuada bibendum in tellus. Sed vestibulum libero semper, 
-    facilisis nunc sed, aliquet nisl.</p>
-  <p>Quisque commodo sed turpis vel imperdiet. Aenean eu enim tincidunt, imperdiet est 
-    et, varius nulla. Sed justo sapien, pharetra eu placerat sagittis, posuere ac quam. 
-    Quisque neque sapien, pretium in sollicitudin non, molestie ut purus. Nullam at leo 
-    finibus, sagittis nulla nec, tincidunt orci. Nunc aliquam vel leo id vestibulum. Mauris 
-    at quam arcu. Morbi bibendum ligula sed turpis lacinia sollicitudin. Aenean quis eros orci.</p>
-  <ul>
-    <li><a href='https://www.twitter.com' target='_blank'>Twitter</a></li>
-    <li><a href='https://www.facebook.com' target='_blank'>Facebook</a></li>
-    <li><a href='https://www.instagram.com' target='_blank'>Instagram</a></li>
-  </ul>
-<!-- <table border=1>
-      <thead>
-        <tr>
-          <th>Album</th>
-          <th>Artist</th>
-          <th>Year</th>
-          <th>Rating</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Abbey Road</td>
-          <td>The Beatles</td>
-          <td>1969</td>
-          <td>100</td>
-        </tr>
-        <tr>
-          <td>Hot Thoughts</td>
-          <td>Spoon</td>
-          <td>2017</td>
-          <td>99</td>
-        </tr>
-        <tr>
-          <td>Raditude</td>
-          <td>Weezer</td>
-          <td>2009</td>
-          <td>50</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>For more info, go <a href='../../../../1/Activities/04-Stu_MyFirst_HTML/Unsolved/my-first.html'>here.</a></p> -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="marshall_photo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Marshall Doig
+    </a>
+  </nav>  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Hi, I'm Marshall.</h1>
+      <p class="lead">This is where I share apps I've created and projects I've worked on.</p>
+      <div class = 'row'>
+        <p class = 'col-md-6'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac 
+          nulla semper lacus ullamcorper consectetur. Suspendisse rhoncus, sapien eget 
+          commodo faucibus, sapien nisi condimentum justo, eget condimentum dui quam id 
+          libero. Ut iaculis mauris eget luctus luctus. Integer a lorem vitae eros 
+          tristique varius.
+        </p>
+        <p class = 'col-md-6'>
+          Quisque commodo sed turpis vel imperdiet. Aenean eu enim tincidunt, imperdiet est 
+          et, varius nulla. Sed justo sapien, pharetra eu placerat sagittis, posuere ac quam. 
+          Quisque neque sapien, pretium in sollicitudin non, molestie ut purus. Nullam at leo 
+          finibus, sagittis nulla nec, tincidunt orci. Nunc aliquam vel leo id vestibulum. Mauris 
+          at quam arcu.
+        </p>
+      </div>      
+    </div>
+  </div>
+  <div class = 'container'>
+    <div class = 'row'>
+      <a class = 'col-md-4' href='https://www.github.com/mdoig' target='_blank'>
+        Github
+      </a>
+      <a class = 'col-md-4' href='https://www.linkedin.com/in/marshalldoig' target='_blank'>
+        LinkedIn
+      </a>
+      <a class = 'col-md-4' href='https://www.twitter.com/MarshallDoig' target='_blank'>
+        Twitter
+      </a>
+    </div>
+  </div>
+
 </body>
 
 </html>
