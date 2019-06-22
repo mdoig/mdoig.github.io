@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Marshall Doig's page</title>
+  <title>Portfolio | Marshall Doig</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -14,66 +14,111 @@
       Marshall Doig
     </a>
   </nav>  
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid" style='background-image: url(https://1.bp.blogspot.com/-eTgD-2W9V1w/UjcOMQfFkXI/AAAAAAAAAWw/1f4-foRZ6Uc/s1600/black-screen-with-flashing-blinking-cursor.gif); background-size: cover'>
     <div class="container">
-      <h1 class="display-4">Hi, I'm Marshall.</h1>
-      <p class="lead">This is where I share apps I've created and projects I've worked on.</p>
+      <h1 class="display-4" style='color: white'>Hi, I'm Marshall.</h1>
+      <p class="lead" style='color: white'>This is where I share apps I've created and projects I've worked on.</p>
       <div class = 'row'>
       </div>      
     </div>
   </div>
   <div class="container-fluid text-center">
     <div class="row">
-      <div class="col-sm text-center">
-        <h3>Projects</h3>
+      <div class="col-md text-center">
+        <h3>Projects and apps</h3>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="card col-sm-4" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Spinning Into Control</h5>
-          <p class="card-text">Tableau visualizations that show how I used data to plan a vinyl collection and learn 
-              other musical facts about myself</p>
-          <a href="https://mdoig.github.io/spinning-into-control/" target='_blank' class="card-link">Check it out</a>
-          <a href="https://github.com/mdoig/spinning-into-control" target='_blank' class="card-link">GitHub repository</a>
-        </div>
-      </div>
-      <div class="col-sm-2"></div>
-      <div class="card col-sm-4" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GOT Heds?</h5>
-          <p class="card-text">A Flask app that is a simple web scraper for "Game of Thrones" stories</p>
-          <a href="https://got-heds.herokuapp.com" target='_blank' class="card-link">Check it out</a>
-          <a href="https://github.com/mdoig/got_heds" target='_blank' class="card-link">GitHub repository</a>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
     </div>
     <br>
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="card col-sm-4" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Belly Button Biodiversity</h5>
-          <p class="card-text">Dashboard of Plotly.js charts using data about bacteria that live inside belly buttons</p>
-          <a href="https://mdoig-bellybutton-biodiversity.herokuapp.com/" target='_blank' class="card-link">Check it out</a>
-          <a href="https://github.com/mdoig/bellybutton-biodiversity" target='_blank' class="card-link">GitHub repository</a>
+      <div class="col-md-1"></div>
+        <div class="card-group col-md-10">
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/spinning-cap.PNG" alt="Spinning Into Control screencap">
+            <div class="card-body">
+              <h5 class="card-title">Spinning Into Control</h5>
+              <p class="card-text">Tableau visualizations that show how I used data to plan a vinyl collection and learn 
+                other musical facts about myself</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://mdoig.github.io/spinning-into-control/" target='_blank' class="card-link">Check it out</a>
+              <a href="https://github.com/mdoig/spinning-into-control" target='_blank' class="card-link">GitHub repository</a>
+              <p><small class="text-muted">Created with: Tableau, Python, Pandas</small></p>
+            </div>
+          </div>
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/got-heds-cap.PNG" alt="GOT Heds? screencap">
+            <div class="card-body">
+              <h5 class="card-title">GOT Heds?</h5>
+              <p class="card-text">A Flask app that is a simple web scraper for "Game of Thrones" stories</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://got-heds.herokuapp.com" target='_blank' class="card-link">Check it out</a>
+              <a href="https://github.com/mdoig/got_heds" target='_blank' class="card-link">GitHub repository</a>
+              <p><small class="text-muted">Created with: Flask, Python, BeautifulSoup</small></p>
+            </div>
+          </div>
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/usgs-earthquakes-cap.PNG" alt="USGS Earthquake Map cap">
+            <div class="card-body">
+              <h5 class="card-title">USGS Earthquake Map</h5>
+              <p class="card-text">Leaflet map of the world showing all earthquakes recorded by the USGS in the past week</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://mdoig.github.io/usgs-earthquake-map/" target='_blank' class="card-link">Check it out</a>
+              <a href="https://github.com/mdoig/usgs-earthquake-map" target='_blank' class="card-link">GitHub repository</a>
+              <p><small class="text-muted">Created with: JavaScript, Leaflet, Mapbox</small></p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-2"></div>
-      <div class="card col-sm-4" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Census Health Chart</h5>
-          <p class="card-text">D3.js plot of health data from the US Census that compares poverty rate to healthcare access</p>
-          <a href="https://mdoig.github.io/census-health-charts/" target='_blank' class="card-link">Check it out</a>
-          <a href="https://github.com/mdoig/census-health-charts" target='_blank' class="card-link">GitHub repository</a>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
+      <div class="col-md-1"></div>
     </div>
-  </div><br>
-  
+    <br>
+    <div class="row">
+      <div class="col-md-1"></div>
+        <div class="card-group col-md-10">
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/opioid-deaths-cap.PNG" alt="Opioid Deaths screencap">
+            <div class="card-body">
+              <h5 class="card-title">Opioid Deaths</h5>
+              <p class="card-text">Full-stack dashboard that examines whether opioid prescribing rates in the U.S. had any 
+                effect on the prescription opioid death rate</p>
+            </div>
+            <div class="card-footer">
+                <a href="https://statewideopioidanalysis.herokuapp.com/" target='_blank' class="card-link">Check it out</a>
+                <a href="https://github.com/sengeling/Project2" target='_blank' class="card-link">GitHub repository</a>
+                <p><small class="text-muted">Created with: Flask, Python, JavaScript, BeautifulSoup, Pandas, Leaflet, Mapbox, 
+                  Plotly.js, SQLAlchemy</small></p>
+            </div>
+          </div>
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/bellybutton-cap.PNG" alt="Belly Button Biodiversity screencap">
+            <div class="card-body">
+              <h5 class="card-title">Belly Button Biodiversity</h5>
+              <p class="card-text">Dashboard of Plotly.js charts using data about bacteria that live inside belly buttons</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://mdoig-bellybutton-biodiversity.herokuapp.com/" target='_blank' class="card-link">Check it out</a>
+              <a href="https://github.com/mdoig/bellybutton-biodiversity" target='_blank' class="card-link">GitHub repository</a>
+              <p><small class="text-muted">Created with: Flask, Python, JavaScript, Pandas, Plotly.js, SQLAlchemy</small></p>
+            </div>
+          </div>
+          <div class="card border-dark">
+            <img class="card-img-top" src="resources/images/census-health-cap.PNG" alt="Census Health Chart cap">
+            <div class="card-body">
+              <h5 class="card-title">Census Health Chart</h5>
+              <p class="card-text">D3.js plot of health data from the US Census that compares poverty rate to healthcare access</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://mdoig.github.io/census-health-charts/" target='_blank' class="card-link">Check it out</a>
+              <a href="https://github.com/mdoig/census-health-charts" target='_blank' class="card-link">GitHub repository</a>
+              <p><small class="text-muted">JavaScript, D3.js</small><br><br></p>
+            </div>  
+          </div>
+        </div>
+      <div class="col-md-1"></div>  
+    </div>
+  </div>
+  <br>
   <div class = 'container-fluid text-center'>
     <div class="row">
       <div class="col-sm text-center">
@@ -88,8 +133,8 @@
       <a class = 'col-sm-2' href='https://www.linkedin.com/in/marshalldoig' target='_blank'>
         LinkedIn
       </a>
-      <a class = 'col-sm-2' href='https://www.twitter.com/MarshallDoig' target='_blank'>
-        Twitter
+      <a class = 'col-sm-2' href='mailto:mdoig5247@gmail.com' target='_blank'>
+        Email
       </a>
       <div class="col-sm-3"></div>
     </div>
